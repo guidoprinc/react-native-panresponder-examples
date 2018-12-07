@@ -12,7 +12,7 @@ function CustomHeader() {
     <View style={styles.container}>
       <Image source={menuPng} style={styles.icon} />
       <CustomText white bold>
-        Events
+        PanResponder
       </CustomText>
       <Image source={searchPng} style={styles.icon} />
     </View>

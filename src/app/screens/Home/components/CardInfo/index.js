@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { View, Animated, PanResponder, Dimensions, Image } from 'react-native';
 
-import CustomButton from '../../../../components/CustomButton';
 import CustomText from '../../../../components/CustomText';
 
 import styles from './styles';
@@ -67,8 +66,6 @@ class CardInfo extends Component {
     }
   });
 
-  handleButtonPress = () => {};
-
   render() {
     return (
       <Animated.View
@@ -95,10 +92,6 @@ class CardInfo extends Component {
           <CustomText white bold xbig center>
             {this.props.title}
           </CustomText>
-        </View>
-        <View style={styles.buttonContainer}>
-          <CustomButton onPress={this.handleButtonPress} bold red title="DON'T" />
-          <CustomButton onPress={this.handleButtonPress} bold lightBlue title="I'M IN" />
         </View>
       </Animated.View>
     );
