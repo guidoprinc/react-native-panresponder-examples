@@ -7,7 +7,7 @@ const BORDER_RADIUS = 10;
 
 const styles = StyleSheet.create({
   container: {
-    height: CARD_SIZE,
+    height: CARD_SIZE + 50,
     width: CARD_SIZE,
     borderRadius: BORDER_RADIUS,
     overflow: 'hidden',
@@ -15,7 +15,7 @@ const styles = StyleSheet.create({
     backgroundColor: white
   },
   image: {
-    height: CARD_SIZE,
+    height: CARD_SIZE + 50,
     width: CARD_SIZE,
     position: 'absolute',
     overflow: 'hidden'
